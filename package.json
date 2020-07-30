@@ -1,0 +1,29 @@
+{
+  "name": "mithril-ts-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_": "webpack src/app.js --output dist/app.js -d --watch",
+    "start": "webpack src/app.ts --output dist/app.js -d --watch",
+    "build": "webpack src/app.js --output dist/app-min.js -p --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mithril": "^2.0.0-rc.4",
+    "mustache-express": "^1.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "6.1.0",
+    "typescript": "3.6.3"
+  }
+}
