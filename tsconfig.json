@@ -9,7 +9,7 @@
 		],
 		"noImplicitAny": false,
 		"noImplicitReturns": true,
-		"suppressImplicitAnyIndexErrors": true,
+		"suppressImplicitAnyIndexErrors": false,
 		"preserveConstEnums": true,
 		"removeComments": false,
 		"noLib": false,

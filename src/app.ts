@@ -21,7 +21,7 @@ function MainApp(): m.Component<{}> {
                             method: "GET",
                             url: "/friends"
                         })
-                            .then(function (result) {
+                            .then(function (result:any) {
                                 console.log(result)
                                 friends.push(...result);
                             })
